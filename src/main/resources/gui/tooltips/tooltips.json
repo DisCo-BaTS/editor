@@ -1,0 +1,90 @@
+[
+  {
+    "modelElement": "InterObjectCommunication",
+    "description": "InterObjectCommunication is used to exchange properties between two SimulationObjects."
+  },
+  {
+    "modelElement": "Limitation",
+    "description": "Limitation is used to restrict SimulationObjects."
+  },
+  {
+    "modelElement": "Restriction",
+    "description": "Restriction inherits from Limitation and represents artificially created limitations e.g. speed limits."
+  },
+  {
+    "modelElement": "Contraint",
+    "description": "Constraint inherits from Limitation and represents naturally existing limitations."
+  },
+  {
+    "modelElement": "Form",
+    "description": "Form is used to describe the proportions of the SimulationObjects."
+  },
+  {
+    "modelElement": "Postition",
+    "description": "Position is used to describe the location of the SimulationObjects with latitude and longitude."
+  },
+  {
+    "modelElement": "SimulationObject",
+    "description": "SimulationObjects represents a participant of the simulation. A SimulationObject is static and is not able to change its values in the run of the simulation."
+  },
+  {
+    "modelElement": "SimulationComponent",
+    "description": "SimulationComponent inherits from SimulationObject. A SimulationComponent can consist of several SimulationComponents."
+  },
+  {
+    "modelElement": "ExternalSimulationObject",
+    "description": "ExternalSimulationObject inherits from SimulationObject. The ExternalSimulationObject is structured analogously to the DynamicSimulationObject but do not link to executable code from another modeling space. It contains a configuration for for connecting external models and systems."
+  },
+  {
+    "modelElement": "DynamicSimulationObject",
+    "description": "DynamicSimulationObject inherits from SimulationObject. Unlike a SimulationObject it is able to change its values throughout a simulation run. A DynamicSimulationObject can consist of several SimulationComponents."
+  },
+  {
+    "modelElement": "ExternalSimulationComponent",
+    "description": "ExternalSimulationComponent inherits from SimulationObject. The ExternalSimulationComponent is structured analogously to the SimulationComponent but do not link to executable code from another modeling space. It contains a configuration for for connecting external models and systems."
+  },
+  {
+    "modelElement": "Goal",
+    "description": "Goal is used to check whether a certain SimulationProperty has reached a value. A weighting can also be stored."
+  },
+  {
+    "modelElement": "Configuration",
+    "description": "The Configuration element is used to define setting needed for the external components."
+  },
+  {
+    "modelElement": "SimulationProperty",
+    "description": "SimulationProperty is similar to a classic Property."
+  },
+  {
+    "modelElement": "SimulationUnit",
+    "description": "SimulationUnit is used to describe the values of a SimulationProperty"
+  },
+  {
+    "modelElement": "CompositeUnit",
+    "description": "CompositeUnit inherits from SimulationUnit. It referencing two or more SingleUnits. An example is the position in the geographic coordinate system with latitude and longitude."
+  },
+  {
+    "modelElement": "SingleUnit",
+    "description": "SingleUnit inherits from SimulationUnit. In addition, a SingleUnit can have sub units, e.g. m/h is the sub unit of km/h. "
+  },
+  {
+    "modelElement": "ExternalBehavioralFeature",
+    "description": ""
+  },
+  {
+    "modelElement": "MethodCall",
+    "description": "MethodCall inherits from ExternalBehavioralFeature. It realizes the linkage of executable code."
+  },
+  {
+    "modelElement": "Identifier",
+    "description": ""
+  },
+  {
+    "modelElement": "SimulationVisibilityKind",
+    "description": "SimulationVisibilityKind is an Enum. It describes the visibility of the SimulationProperties for other SimulationObjects."
+  },
+  {
+    "modelElement": "SimulationPropertyValueKind",
+    "description": "SimulationPropertyValueKind is an Enum. It determines whether the values are single, a list or a range of values."
+  }
+]

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.1"
+         xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+    <xmi:Documentation exporter="Enterprise Architect" exporterVersion="6.5"/>
+    <uml:Model xmi:type="uml:Model" name="EA_Model" visibility="public">
+        <packagedElement xmi:type="uml:Package" xmi:id="EAPK_DD15C119_732E_49bc_8680_1A33919FC741" name="TSSMeta"
+                         visibility="public">
+            <packagedElement xmi:type="uml:Class" xmi:id="EAID_A453EC9D_C7F4_40c6_8DCB_776BA29B3E02"
+                             name="SuperTestKlasse" visibility="public">
+                <ownedAttribute xmi:type="uml:Property" xmi:id="EAID_2E348F39_2413_426d_8E24_B813C7049B99"
+                                name="bewohner" visibility="private" isStatic="false" isReadOnly="false"
+                                isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000001_2413_426d_8E24_B813C7049B99"
+                                value="1"/>
+                    <upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000002_2413_426d_8E24_B813C7049B99"
+                                value="1"/>
+                    <type xmi:idref="EAJava_ArrayList_String_"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="EAID_963AD7BA_DF00_43fa_8E36_CF45835947EF" name="name"
+                                visibility="private" isStatic="false" isReadOnly="false" isDerived="false"
+                                isOrdered="false" isUnique="true" isDerivedUnion="false">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000003_DF00_43fa_8E36_CF45835947EF"
+                                value="1"/>
+                    <upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000004_DF00_43fa_8E36_CF45835947EF"
+                                value="1"/>
+                    <type xmi:idref="EAJava_int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="EAID_5013921F_4AA8_4f36_AA30_40AEB11D1EB9" name="ort"
+                                visibility="private" isStatic="false" isReadOnly="false" isDerived="false"
+                                isOrdered="false" isUnique="true" isDerivedUnion="false">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000005_4AA8_4f36_AA30_40AEB11D1EB9"
+                                value="1"/>
+                    <upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000006_4AA8_4f36_AA30_40AEB11D1EB9"
+                                value="1"/>
+                    <type xmi:idref="EAJava_Integer"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:type="uml:Property" xmi:id="EAID_0A905DC0_85B6_4c4c_ADCE_BCB157A3D9CF"
+                                name="vorraete" visibility="private" isStatic="false" isReadOnly="false"
+                                isDerived="false" isOrdered="false" isUnique="true" isDerivedUnion="false">
+                    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000007_85B6_4c4c_ADCE_BCB157A3D9CF"
+                                value="1"/>
+                    <upperValue xmi:type="uml:LiteralInteger" xmi:id="EAID_LI000008_85B6_4c4c_ADCE_BCB157A3D9CF"
+                                value="1"/>
+                    <type xmi:idref="EAJava_HashMap_String__Integer_"/>
+                </ownedAttribute>
+            </packagedElement>
+        </packagedElement>
+    </uml:Model>
+    <xmi:Extension extender="Enterprise Architect" extenderID="6.5">
+        <elements>
+            <element xmi:idref="EAPK_DD15C119_732E_49bc_8680_1A33919FC741" xmi:type="uml:Package" name="TSSMeta"
+                     scope="public">
+                <model package2="EAID_DD15C119_732E_49bc_8680_1A33919FC741"
+                       package="EAPK_CCA1E8DD_5929_41c8_90D3_F6C331C8B04A" tpos="0" ea_localid="2"
+                       ea_eleType="package"/>
+                <properties isSpecification="false" sType="Package" nType="0" scope="public"/>
+                <project author="alex" version="1.0" phase="1.0" created="2022-04-01 10:05:10"
+                         modified="2022-04-01 17:43:21" complexity="1" status="Proposed"/>
+                <code gentype="Java"/>
+                <style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+                <tags/>
+                <xrefs/>
+                <extendedProperties tagged="0" package_name="Model"/>
+                <packageproperties version="1.0"/>
+                <paths/>
+                <times created="2022-04-01 10:05:10" modified="2022-04-01 17:43:21"/>
+                <flags iscontrolled="FALSE" isprotected="FALSE" usedtd="FALSE" logxml="FALSE"
+                       packageFlags="isModel=1;VICON=3;"/>
+            </element>
+            <element xmi:idref="EAID_A453EC9D_C7F4_40c6_8DCB_776BA29B3E02" xmi:type="uml:Class" name="SuperTestKlasse"
+                     scope="public">
+                <model package="EAPK_DD15C119_732E_49bc_8680_1A33919FC741" tpos="0" ea_localid="2"
+                       ea_eleType="element"/>
+                <properties isSpecification="false" sType="Class" nType="0" scope="public" isRoot="false" isLeaf="false"
+                            isAbstract="false" isActive="false"/>
+                <project author="alex" version="1.0" phase="1.0" created="2022-04-01 10:05:16"
+                         modified="2022-04-01 10:05:23" complexity="1" status="Proposed"/>
+                <code gentype="Java"/>
+                <style appearance="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+                <tags/>
+                <xrefs/>
+                <extendedProperties tagged="0" package_name="TSSMeta"/>
+                <attributes>
+                    <attribute xmi:idref="EAID_2E348F39_2413_426d_8E24_B813C7049B99" name="bewohner" scope="Private">
+                        <initial/>
+                        <documentation/>
+                        <model ea_localid="3" ea_guid="{2E348F39-2413-426d-8E24-B813C7049B99}"/>
+                        <properties type="ArrayList&lt;String&gt;" collection="false" static="0" duplicates="0"
+                                    changeability="changeable"/>
+                        <coords ordered="0"/>
+                        <containment containment="Not Specified" position="2"/>
+                        <stereotype/>
+                        <bounds lower="1" upper="1"/>
+                        <options/>
+                        <style/>
+                        <styleex value="volatile=0;"/>
+                        <tags/>
+                        <xrefs/>
+                    </attribute>
+                    <attribute xmi:idref="EAID_963AD7BA_DF00_43fa_8E36_CF45835947EF" name="name" scope="Private">
+                        <initial/>
+                        <documentation/>
+                        <model ea_localid="1" ea_guid="{963AD7BA-DF00-43fa-8E36-CF45835947EF}"/>
+                        <properties type="int" collection="false" static="0" duplicates="0" changeability="changeable"/>
+                        <coords ordered="0"/>
+                        <containment containment="Not Specified" position="0"/>
+                        <stereotype/>
+                        <bounds lower="1" upper="1"/>
+                        <options/>
+                        <style/>
+                        <styleex value="volatile=0;"/>
+                        <tags/>
+                        <xrefs/>
+                    </attribute>
+                    <attribute xmi:idref="EAID_5013921F_4AA8_4f36_AA30_40AEB11D1EB9" name="ort" scope="Private">
+                        <initial/>
+                        <documentation/>
+                        <model ea_localid="2" ea_guid="{5013921F-4AA8-4f36-AA30-40AEB11D1EB9}"/>
+                        <properties type="Integer" collection="false" static="0" duplicates="0"
+                                    changeability="changeable"/>
+                        <coords ordered="0"/>
+                        <containment containment="Not Specified" position="1"/>
+                        <stereotype/>
+                        <bounds lower="1" upper="1"/>
+                        <options/>
+                        <style/>
+                        <styleex value="volatile=0;"/>
+                        <tags/>
+                        <xrefs/>
+                    </attribute>
+                    <attribute xmi:idref="EAID_0A905DC0_85B6_4c4c_ADCE_BCB157A3D9CF" name="vorraete" scope="Private">
+                        <initial/>
+                        <documentation/>
+                        <model ea_localid="4" ea_guid="{0A905DC0-85B6-4c4c-ADCE-BCB157A3D9CF}"/>
+                        <properties type="HashMap&lt;String, Integer&gt;" collection="false" static="0" duplicates="0"
+                                    changeability="changeable"/>
+                        <coords ordered="0"/>
+                        <containment containment="Not Specified" position="3"/>
+                        <stereotype/>
+                        <bounds lower="1" upper="1"/>
+                        <options/>
+                        <style/>
+                        <styleex value="volatile=0;"/>
+                        <tags/>
+                        <xrefs/>
+                    </attribute>
+                </attributes>
+            </element>
+        </elements>
+        <connectors/>
+        <primitivetypes>
+            <packagedElement xmi:type="uml:Package" xmi:id="EAPrimitiveTypesPackage" name="EA_PrimitiveTypes_Package"
+                             visibility="public">
+                <packagedElement xmi:type="uml:Package" xmi:id="EAJavaTypesPackage" name="EA_Java_Types_Package"
+                                 visibility="public">
+                    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_ArrayList_String_"
+                                     name="ArrayList&lt;String&gt;" visibility="public"/>
+                    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_int" name="int" visibility="public">
+                        <generalization xmi:type="uml:Generalization" xmi:id="EAJava_int_General">
+                            <general href="http://schema.omg.org/spec/UML/2.1/uml.xml#Integer"/>
+                        </generalization>
+                    </packagedElement>
+                    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_Integer" name="Integer"
+                                     visibility="public"/>
+                    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="EAJava_HashMap_String__Integer_"
+                                     name="HashMap&lt;String, Integer&gt;" visibility="public"/>
+                </packagedElement>
+            </packagedElement>
+        </primitivetypes>
+        <profiles/>
+        <diagrams>
+            <diagram xmi:id="EAID_8B48B226_1BE2_41fa_9E81_3F93522F7A0C">
+                <model package="EAPK_DD15C119_732E_49bc_8680_1A33919FC741" localID="1"
+                       owner="EAPK_DD15C119_732E_49bc_8680_1A33919FC741"/>
+                <properties name="Model" type="Logical"/>
+                <project author="alex" version="1.0" created="2022-04-01 10:05:10" modified="2022-04-05 10:04:10"/>
+                <style1 value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=803;DocSize.cy=1146;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+                <style2 value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=7A9DA6B3;"/>
+                <swimlanes
+                        value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+                <matrixitems
+                        value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+                <extendedProperties/>
+                <elements>
+                    <element geometry="Left=276;Top=136;Right=448;Bottom=224;"
+                             subject="EAID_A453EC9D_C7F4_40c6_8DCB_776BA29B3E02" seqno="1" style="DUID=6252285A;"/>
+                </elements>
+            </diagram>
+        </diagrams>
+    </xmi:Extension>
+</xmi:XMI>
