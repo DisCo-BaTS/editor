@@ -57,6 +57,19 @@
 > but feel free to help doing so. 🔧  
 > ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️
 
+<p align="center">
+Screenshots:<br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot9.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot8.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot7.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot6.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot5.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot4.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot3.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot2.png"/><br/>
+<img alt="Java Version" src="./assets/screenshots/screenshot1.png"/><br/>
+</p>
+
 ---
 
 **Possible TODOs**
