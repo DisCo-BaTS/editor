@@ -48,6 +48,31 @@
 
 ---
 
+> [!IMPORTANT]  
+> ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️  
+> This GUI desktop editor app was developed during an earlier development iteration
+> and IS CURRENTLY NOT WORKING with the current latest meta-model implementation.  
+> However since adapting the editor code to the latest meta-model structures should be quite easy,
+> the complete code base was published nevertheless. It probably will be fixed / adapted at some point in time,
+> but feel free to help doing so. 🔧  
+> ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️
+
+---
+
+**Possible TODOs**
+
+- Console outputs for the following events
+    - Attribute type has been changed
+    - Default value of attribute has been changed
+- Possible exceptions that could occur
+- Not all properties are selectable for communication objects
+- Hide dropdown if empty
+- Different zoom levels for the EditorPane
+- Always display attributes in the same order
+- Rename elements that have already been created
+
+---
+
 ## Project Structure
 - __CORE__
     - [**meta**](https://github.com/DisCo-BaTS/meta)
@@ -76,35 +101,6 @@
 - __ADDITIONAL__
     - [**templates**](https://github.com/DisCo-BaTS/templates)
     - [**assets**](https://github.com/DisCo-BaTS/assets) (configs, scenarios, misc)
-
----
-
-
-
----
-
-> [!IMPORTANT]  
-> ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️  
-> This GUI desktop editor app was developed during an earlier development iteration
-> and IS CURRENTLY NOT WORKING with the current latest meta-model implementation.  
-> However since adapting the editor code to the latest meta-model structures should be quite easy,
-> the complete code base was published nevertheless. It probably will be fixed / adapted at some point in time,
-> but feel free to help doing so. 🔧  
-> ⚠️ ⚠️ ⚠️ ⚠️ ⚠️ ⚠️
-
----
-
-**Possible TODOs**
-
-- Console outputs for the following events
-  - Attribute type has been changed
-  - Default value of attribute has been changed
-- Possible exceptions that could occur
-- Not all properties are selectable for communication objects
-- Hide dropdown if empty
-- Different zoom levels for the EditorPane
-- Always display attributes in the same order
-- Rename elements that have already been created
 
 ---
 
