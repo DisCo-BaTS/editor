@@ -83,6 +83,7 @@
         - [root](https://github.com/DisCo-BaTS/application/tree/main/root)
         - [remote](https://github.com/DisCo-BaTS/application/tree/main/remote)
         - [router](https://github.com/DisCo-BaTS/application/tree/main/router)
+    - [**util**](https://github.com/DisCo-BaTS/util)
     - [**build**](https://github.com/DisCo-BaTS/build)
         - [_plugins_](https://github.com/DisCo-BaTS/build/tree/main/plugins)
             - [_maven-plugins_](https://github.com/DisCo-BaTS/build/tree/main/plugins/maven-plugins)
@@ -92,11 +93,9 @@
     - [**models**](https://github.com/DisCo-BaTS/models)
     - [**testunits**](https://github.com/DisCo-BaTS/testunits)
 
-
 - __TOOLS__
     - [**webview**](https://github.com/DisCo-BaTS/webview)
     - [**editor**](https://github.com/DisCo-BaTS/editor)
-
 
 - __ADDITIONAL__
     - [**templates**](https://github.com/DisCo-BaTS/templates)
